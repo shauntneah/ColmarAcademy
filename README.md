@@ -26,3 +26,9 @@ Q3. What would make your experience with this assessment better?
   <br>
 Ans: lorem
 
+-------------------
+Additional Comments
+-------------------
+The project had not called for usage of a CDN service. However in view of a lean methodology, and the general intent of this website (i.e. no professional grade demand on web resources), I have optmized the following:
+1. graphical elements with a lossless compression to effect 
+2. video compressionof 49% for optimized web streaming 11.1mb to 5.4mb)  
