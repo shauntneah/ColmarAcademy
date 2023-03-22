@@ -11,16 +11,18 @@ HTML/CSS - Build a Website with HTML, CSS, and Github repo
 
 
 <h2>Assessment Questions:</h2> (per requirement to add in the readme file)
-
-<p>Q1. What did you like about this project?</p>
+<p></p>
+Q1. What did you like about this project?
+  <br>
 Ans: This was a challenging project, from the perspective of someone new to coding. However this test has layed a good foundation for me moving forward. With the completion of this website project, I will now be in possession of the respective technical skills and knowledgebase to approach most basic website development project moving forward with confidence.
 
-
-<p>Q2. What did you struggle with in this project?</p>
+<p></p>
+Q2. What did you struggle with in this project?
+  <br>
 Ans. Personally I have a challenging time to comprehend visually and wrap my mind around the technical commands of using flex while trying to structure the approach of building the site in my mind.
 
-
+<p></p>
 Q3. What would make your experience with this assessment better?
-
-
+  <br>
+Ans: 
 
