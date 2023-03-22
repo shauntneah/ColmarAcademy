@@ -1,0 +1,522 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; /* per spec, 16px */
+  color: #989898; /* per spec */
+}
+
+main,
+footer {
+  position: relative;
+  top: 32px; /* per spec  */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.image-container {
+  overflow: hidden;
+  box-shadow: 5px 5px 20px darkslategrey;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button {
+  padding: 8px 0;
+  background-color: #505050;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: 60%;
+  box-shadow: 3px 3px 16px darkslategrey;
+  transition: all 0.5s ease-in 0.1s;
+}
+
+.button:hover {
+  background-color: darkslategray;
+  padding: 16px 12px;
+  box-shadow: 3px 3px 16px black;
+}
+
+.side-container {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.5s ease-in 0.1s;
+}
+
+.side-container:hover {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 30px; /* per spec requirement, 30px */
+  font-weight: bold; /* per spec */
+  color: #4f4f4f; /* per spec, all headers */
+}
+
+h2 {
+  font-size: 24px; /* per spec requirement, 24px */
+  color: #4f4f4f; /* per spec, all headers */
+}
+
+h3 {
+  font-size: 22px; /* per spec requirement, 22px */
+  color: #4f4f4f; /* per spec, all headers */
+}
+
+h4 {
+  font-size: 20px; /* per spec requirement, 20px */
+  color: #4f4f4f; /* per spec, all headers */
+}
+
+h5 {
+  font-size: 18px; /* per spec requirement, 18px */
+  color: #4f4f4f; /* per spec, all headers */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+a:hover {
+  color: rgb(122, 172, 189);
+  font-size: 110%;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 4.5rem;
+  background-color: white;
+  font-size: 1.25rem;
+  line-height: 4.5rem;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+header .left {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1.5rem;
+}
+
+header .right {
+  margin-right: 1.5rem;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+header .left a:hover {
+  color: #505050;
+}
+
+header span {
+  color: gray;
+}
+
+.desktop img {
+  height: 4rem;
+  width: auto;
+  vertical-align: middle;
+}
+
+header .mobile {
+  display: none;
+}
+
+/*  max-width 720 per spec */
+@media only screen and (max-width: 720px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+    height: 4.5rem;
+    text-align: center;
+  }
+
+  header li {
+    margin: 0 4rem;
+  }
+
+  header .mobile img {
+    height: 3.5rem;
+    width: auto;
+    vertical-align: middle;
+  }
+}
+
+/* Banner */
+
+#banner {
+  display: flex;
+  align-items: center;
+  background-color: #c4c2c2; /* per spec background */
+}
+
+#banner-image {
+  width: 50%;
+  margin: 2rem;
+}
+
+#banner .content {
+  width: 30%;
+  padding: 32px 24px;
+}
+
+#banner h3 {
+  margin-bottom: 32px; /* per spec  */
+}
+
+#banner a {
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  #banner-image {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #banner-image {
+    min-width: 90%;
+  }
+
+  #banner {
+    flex-flow: column;
+  }
+
+  #banner .content {
+    width: 60%;
+    padding: 32px 24px;
+  }
+
+  .button {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  /* max-wdth per spec */
+  #banner-image {
+    width: 100%;
+    margin: auto;
+  }
+
+  #banner .content {
+    padding: 16px 0;
+  }
+}
+
+/* Campus Information */
+
+#campus-info {
+  display: flex;
+  background-color: ghostwhite;
+}
+
+.learning-quote {
+  width: 60%;
+  margin: 32px;
+}
+
+.learning-quote .content h2 {
+  margin: 32px 0;
+}
+
+.learning-quote .content span {
+  font-family: Arial, Helvetica, sans-serif; /* font per spec */
+  display: inline-block;
+  padding: 32px 0;
+}
+
+.campus-info {
+  width: 40%;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.campus-info .image-container {
+  max-width: 32%;
+  margin: 1rem;
+}
+
+.campus-info .content {
+  margin-left: 16px;
+}
+
+.campus-info .content h3 {
+  margin: 16px 0;
+}
+
+.campus-info .content p {
+  line-height: 2;
+}
+
+.campus-info .content a {
+  font-family: Arial, Helvetica, sans-serif; /* font per spec */
+  color: #4577bc; /* color per spec */
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.campus-info .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  /* max width per spec */
+  .campus-info .desktop,
+  .learning-quote {
+    display: none;
+  }
+
+  .campus-info .mobile {
+    display: block;
+  }
+
+  .campus-info {
+    width: 100%;
+  }
+
+  .campus-info .image-container {
+    max-width: 100%;
+  }
+
+  #campus-info .side-container {
+    flex-flow: column;
+    align-items: flex-start;
+    border: none;
+  }
+
+  #campus-info .side-container:hover {
+    background-color: ghostwhite;
+  }
+
+  .campus-info .content {
+    padding-left: 32px;
+  }
+
+  #campus-info p {
+    font-size: 24px;
+  }
+}
+
+/* Course Information */
+
+#course-info {
+  background-color: whitesmoke;
+  padding: 32px 0;
+}
+
+#course-info h2 {
+  text-align: center;
+  margin: 32px 0;
+}
+
+#course-info .course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#course-info .courses {
+  max-width: 24%;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  transition: all 0.5s ease-in 0.1s;
+}
+
+#course-info .courses:hover {
+  background-color: lightgray;
+  max-width: 28%;
+}
+
+#course-info .content {
+  padding: 32px 24px;
+}
+
+#course-info .content h3 {
+  margin-bottom: 16pm;
+}
+
+#course-info .content p {
+  line-height: 1.5;
+  color: gray;
+  font-size: 1.125rem;
+}
+
+#course-info .courses-label {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+  #course-info .courses {
+    min-width: 36%;
+  }
+
+  #course-info .courses:hover {
+    min-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #course-info p {
+    display: none;
+  }
+
+  #course-info .course-container {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  #course-info .courses {
+    background-color: lightgray;
+    opacity: 0.9;
+    margin: 0.5rem 1.5rem;
+    max-width: 80%;
+  }
+
+  #course-info .courses:hover {
+    max-width: 100%;
+  }
+
+  #course-info h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Thesis Video section */
+
+#thesis-exhibit {
+  background-color: ghostwhite;
+  padding: 32px 32px 24px 24px; /* per spec  */
+}
+
+#thesis-exhibit h2 {
+  text-align: center;
+  margin: 32px 0; /* per spec  */
+}
+
+#thesis-container {
+  display: flex;
+  padding-top: 16px; /* per spec  */
+}
+
+#thesis-video {
+  width: 60%; /* scale width per spec  */
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#thesis-exhibit .image-container {
+  max-width: 32%;
+  margin: 16px; /* per spec  */
+}
+
+#thesis-exhibit .content h3 {
+  margin: 16px 0; /* per spec  */
+}
+
+.exhibit-container {
+  width: 40%; /* per spec  */
+  margin-left: 24px; /* per spec  */
+}
+
+.exhibit-container .content {
+  margin-left: 16pxm;
+}
+
+#thesis-exhibit .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  /* max-width per spec */
+  #thesis-exhibit .desktop,
+  .exhibit-container,
+  #thesis-container .content {
+    display: none;
+  }
+
+  #thesis-exhibit .mobile {
+    display: block;
+  }
+
+  #thesis-container,
+  #thesis-video {
+    width: 100%;
+    padding-bottom: 24px; /* per spec  */
+  }
+
+  #thesis-exhibit {
+    padding: 0;
+  }
+
+  #thesis-exhibit h2 {
+    margin: 0;
+    padding: 32px; /* per spec  */
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: ghostwhite;
+  border-top: 1px solid lightgray;
+  width: 100%;
+  font-size: 18px; /* not stated in specs, i assumed 18  */
+}
+
+footer span {
+  margin: 16px;
+}
+
+footer div {
+  padding-top: 16px;
+}
+
+@media only screen and (max-width: 720x) {
+  footer .right {
+    display: none;
+  }
+
+  footer p {
+    font-size: 32px;
+  }
+
+  footer {
+    border: none;
+  }
+}
