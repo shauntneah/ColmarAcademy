@@ -1,14 +1,13 @@
-# Website Requirement Document
+# Website Requirement Document (Assessment)
 
 **currently project in progress. document will be updated accordingly.**
 
-This is an test evaluation assignment as part of [GenerationSG](https://singapore.generation.org/launch-your-career-in-tech/) Junior Fullstack Developer Bootcamp, Day 14.
+This was an test evaluation assignment as part of [GenerationSG](https://singapore.generation.org/launch-your-career-in-tech/) Junior Fullstack Developer Bootcamp, Day 14.
 
 
 Technical Requirement:
 HTML/CSS - Build a Website with HTML, CSS, and Github repo
-  <p></p>
-  <p></p>
+
 <h2>Assessment Questions: (per requirement to add in the readme file)</h2> 
   <p></p>
   <p></p>
