@@ -7,22 +7,22 @@ This is an test evaluation assignment as part of [GenerationSG](https://singapor
 
 Technical Requirement:
 HTML/CSS - Build a Website with HTML, CSS, and Github repo
-
-
-
+  <p></p>
+  <p></p>
 <h2>Assessment Questions:</h2> (per requirement to add in the readme file)
-<p></p>
+  <p></p>
+  <p></p>
 Q1. What did you like about this project?
   <br>
 Ans: This was a challenging project, from the perspective of someone new to coding. However this test has layed a good foundation for me moving forward. With the completion of this website project, I will now be in possession of the respective technical skills and knowledgebase to approach most basic website development project moving forward with confidence.
-
-<p></p>
+  <p></p>
+  <p></p>
 Q2. What did you struggle with in this project?
- <br>
+  <br>
 Ans. Personally I have a challenging time to comprehend visually and wrap my mind around the technical commands of using flex while trying to structure the approach of building the site in my mind.
-
-<p></p>
+  <p></p>
+  <p></p>
 Q3. What would make your experience with this assessment better?
- <br>
+  <br>
 Ans: lorem
 
