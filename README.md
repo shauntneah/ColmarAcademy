@@ -14,7 +14,7 @@ HTML/CSS - Build a Website with HTML, CSS, and Github repo
   <p></p>
 Q1. What did you like about this project?
   <br>
-Ans: This was a challenging project, from the perspective of someone new to coding. However this test has layed a good foundation for me moving forward. With the completion of this website project, I will now be in possession of the respective technical skills and knowledgebase to approach most basic website development project moving forward with confidence.
+Ans: This was a challenging project with a mandated deliverable leadtime, coming from the perspective of someone new to coding. However this test has layed a good foundation for me moving forward. With the completion of this website project, I will now be in possession of the respective technical skills and knowledgebase to approach most basic website development project with confidence.
   <p></p>
   <p></p>
 Q2. What did you struggle with in this project?
