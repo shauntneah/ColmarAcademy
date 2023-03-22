@@ -9,7 +9,7 @@ Technical Requirement:
 HTML/CSS - Build a Website with HTML, CSS, and Github repo
   <p></p>
   <p></p>
-<h2>Assessment Questions:</h2> (per requirement to add in the readme file)
+<h2>Assessment Questions: (per requirement to add in the readme file)</h2> 
   <p></p>
   <p></p>
 Q1. What did you like about this project?
