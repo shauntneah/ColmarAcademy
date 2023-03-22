@@ -24,5 +24,5 @@ Ans. Personally I have a challenging time to comprehend visually and wrap my min
 <p></p>
 <h4>Q3. What would make your experience with this assessment better?</h4>
   <br>
-Ans: <span style= 'color:grey'>lorem</span>
+Ans: <span style= 'color:yellow'>lorem</span>
 
