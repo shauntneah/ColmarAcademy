@@ -1,6 +1,5 @@
 # Website Requirement Document (Assessment)
 
-_**currently project in progress. document will be updated accordingly.**_
 
 This was an test evaluation assignment as part of [GenerationSG](https://singapore.generation.org/launch-your-career-in-tech/) Junior Fullstack Developer Bootcamp, Day 14.
 
